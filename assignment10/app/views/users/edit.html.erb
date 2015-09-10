@@ -1,0 +1,5 @@
+<%= form_for @user, html: {method: :put} do |f| %>
+	<%= f.label :fname %> 
+	<%= f.text_field :fname %> 
+	<%= f.submit :edit %>
+<% end %>
